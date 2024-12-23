@@ -30,5 +30,3 @@ if selected_category:
     image = load_image(image_path)
     st.image(image, caption=selected_category, use_container_width=True)
 
-# Дополнительная информация
-st.markdown("**Примечание:** Изображения являются условными и могут быть заменены на реальные данные.")
